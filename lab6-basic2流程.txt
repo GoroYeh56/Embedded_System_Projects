@@ -1,0 +1,16 @@
+for(;;){
+
+flash( id, on, off);
+
+//進去flash
+
+flash內去enable interrupt -> interrupt 內做一次的on-off亮燈
+->回到for迴圈
+
+//跑下一次的for迴圈
+
+temp(interval, times);
+//進去temp
+temp內去量溫度，每量兩個去算0+1的ave
+
+ADC的interrupt: if ave>737 ->emergency state
